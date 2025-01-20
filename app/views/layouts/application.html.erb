@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>HouseCleaningServices</title>
-    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>House Cleaning Services</title>
+    <meta name="description" content="Your go-to house cleaning booking services on beautiful Tutukaka coast"> 
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -13,6 +13,8 @@
   <body>
     <p class="notice"><%= notice %></p>
     <p class="alert"><%= alert %></p>
+    <%= render "shared/navbar" %>
+    <%= render "shared/flashes" %>
     <%= yield %>
   </body>
 </html>
